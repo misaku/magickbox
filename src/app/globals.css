@@ -40,3 +40,14 @@ a {
     color-scheme: dark;
   }
 }
+
+@media screen and (max-width: 800px) { 
+  html, body {
+    font-size: 60%;
+  }
+.main>header {
+
+  flex-direction: column;
+
+}
+}

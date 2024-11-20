@@ -1,3 +1,4 @@
+
 .page {
   display: grid;
   grid-template-rows: 20px 1fr 20px;
@@ -27,17 +28,4 @@
   display: flex;
   flex: 1;
   font-size: 3rem;
-}
-@media screen and (max-width: 800px) { 
-  :global(html) {
-    font-size: 60%;
-  }
-  :global(body) {
-    font-size: 60%;
-  }
-.main>header {
-
-  flex-direction: column;
-
-}
 }
