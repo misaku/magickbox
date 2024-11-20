@@ -26,5 +26,12 @@
 .main>header>h1{
   display: flex;
   flex: 1;
-  font-size: 40pt;
+  font-size: 3rem;
+}
+@media screen and (max-width: 800px) { body,html { font-size: 60%; }
+.main>header {
+
+  flex-direction: column;
+
+}
 }

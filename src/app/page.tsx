@@ -88,7 +88,7 @@ export default function Home() {
         footer=""
   
       >
-        {message.split('\n').map(str => <p className={caveat.className} key={str} style={{fontSize: 30}}>{str}</p>)}
+        {message.split('\n').map(str => <p className={caveat.className} key={str} style={{fontSize: '2rem'}}>{str}</p>)}
       </Modal>
       </main>
 
