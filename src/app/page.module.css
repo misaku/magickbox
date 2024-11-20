@@ -29,3 +29,10 @@
   flex: 1;
   font-size: 3rem;
 }
+@media screen and (max-width: 800px) { 
+.main>header {
+
+  flex-direction: column;
+
+}
+}

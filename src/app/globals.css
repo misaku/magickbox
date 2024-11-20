@@ -45,9 +45,4 @@ a {
   html, body {
     font-size: 60%;
   }
-.main>header {
-
-  flex-direction: column;
-
-}
 }
